@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+  max-width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  background-image: url(./tree-832079_1280.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 5%;
+  position: relative;
+}
+
+.Weather{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-bottom: 1.5rem;
+  color: #243738;
+  
+}
+#input-el{
+  padding: 0.8rem;
+  font-size: 20px;
+  background-color: antiquewhite;
+  font-weight: 700;
+  
+}
+.sub-container{
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(236, 248, 68); 
+    border-radius: 15%;
+    padding: 6rem 6rem;
+}
+.sub-container button{
+  padding: 0.3rem 1rem;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: rgb(109, 218, 252);
+  font-weight: 900;
+  color: rgb(34, 29, 29);
+  border: none;
+}
+
+.list{
+  padding: 2rem 2rem;
+  background-color: rgb(240, 244, 248);
+  margin-top: 1rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px rgb(2, 39, 54);
+  color:#362608 ;
+  font-size: 20px;  
+  font-weight: 900;
+}
